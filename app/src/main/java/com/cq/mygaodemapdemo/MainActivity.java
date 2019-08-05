@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_map:
-                startActivity(new Intent(MainActivity.this, MapActivity.class));
+                startActivity(new Intent( MainActivity.this, MapActivity.class));
                 break;
             case R.id.btn_city:
 //                startActivity(new Intent(MainActivity.this, CityActivity.class));
