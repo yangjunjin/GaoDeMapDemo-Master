@@ -2,17 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
-        debug {
-            storeFile file('D:\\CompanyProject\\GaoDeKey\\gaode.jks')
-            storePassword '123456'
-            keyAlias = '123456'
+        config {
+            keyAlias '123456'
             keyPassword '123456'
-        }
-        release {
-            storeFile file('D:\\CompanyProject\\GaoDeKey\\gaode.jks')
+            storeFile file("gaode.jks")
             storePassword '123456'
-            keyAlias = '123456'
-            keyPassword '123456'
         }
     }
 
