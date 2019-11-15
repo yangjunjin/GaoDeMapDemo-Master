@@ -15,12 +15,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ///master2
+        //master2
     }
 
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_map:
+                //master2222222
                 startActivity(new Intent( MainActivity.this, MapActivity.class));
                 break;
             case R.id.btn_city:
