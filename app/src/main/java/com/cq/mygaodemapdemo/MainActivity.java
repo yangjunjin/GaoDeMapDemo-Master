@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ///master3
+        ///master0
     }
 
     public void onClick(View view) {
@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(ChooseCityActivity.CURR_CITY_KEY, "广州");
                 startActivityForResult(intent, 1);
                 overridePendingTransition(R.anim.slide_in_up, 0);
+                ///master0
                 break;
         }
     }
