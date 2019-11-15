@@ -46,5 +46,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void master(){}
+    public void master(){
+        int i=0;
+    }
 }
